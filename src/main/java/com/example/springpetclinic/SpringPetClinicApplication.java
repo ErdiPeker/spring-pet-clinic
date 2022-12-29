@@ -1,4 +1,4 @@
-package com.erdipeker.springpetclinic;
+package com.example.springpetclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
