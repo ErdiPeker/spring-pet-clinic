@@ -51,7 +51,7 @@ public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements O
                     }
                     if(pet.getId()==null){
                         Pet savedPet = petService.save(pet);
-                        pet.setId(savedPet.getId());
+                        pet.setId(savedPet.getId()  );
                     }
                 });
             }
